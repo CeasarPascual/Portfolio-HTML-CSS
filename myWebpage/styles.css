@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navbar-search{
+    padding: 16px;
+}
+
+.header-wrapper{
+    display: flex;
+    color: white;
+    margin: 0 346px;
+  
+}
+
+.header-row{
+    display: flex;
+    width: 100%;
+}
+
+.Logo-column{
+    padding: 10px;
+}
+
+.MyLogo{
+    color: #fff; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.nav-column{
+    padding: 10px;
+}
+
+.search-column{
+    padding: 10px;
+}
+
+.header-navbar-search{
+    padding: 16px;
+    background-color: #181a19;
+}
+.nav-selections {
+    float: right;
+}
+
+.nav-selections ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; 
+}
+
+.nav-selections ul li{
+    list-style: none;
+}
+
+.nav-selections ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.nav-selections ul li a:hover{
+    color: #5CD2B9;
+}
+.magnifying-glassicon{
+    color: #5CD2B9;
+}
+
+.body-image-introDetials-wrapper{
+    padding: 96px 16px;
+    background: rgb(15,23,21);
+    background: linear-gradient(90deg, rgba(12,12,12,1) 53%, rgba(31,58,53,1) 95%);
+}
+
+.Services-desc-cards{
+    padding: 96px 16px;
+    background: #000;
+}
+
+.Services-desc-cards1-wrapper{
+    display: flex;
+    margin: 0 346px;
+ 
+}
+
+.Services-desc-cards1-container{
+    display: flex;
+    width: 100%;
+   
+}
+
+.Services-container-wrapper{
+    display: flex;
+    
+}
+.Services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 48px 16px 16px;
+    width: 100%;
+    height: 520px;
+
+}
+
+.ServiceHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.Cards-container-wrapper{
+    display: flex;
+}
+
+.Cards-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    /* height: 520px; */
+}
+
+.UpperCards{
+    display: flex;
+    width: 100%;
+
+}
+
+.FirstCard-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.Firstcard-container{
+    display: flex;
+    width: 100%;
+    margin-top: -32px;
+}
+
+.FirstCard-overlapping-container{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 275px;
+    float: left;
+    align-items: flex-start;
+}
+
+.FirstCard-Contents{
+    padding: 10px 32px;
+    text-align: center;
+    position: relative;
+    height: 230px;
+    background-color: rgb(31, 30, 30);
+
+}
+
+.Card-header{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.Card-contents{
+    color: #aaa;
+}
+
+.SecondCard-wrapper{
+    display: flex;
+    width: 100%;
+}
+.SecondCard-overlapping-container{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.SecondCard-Container{
+    display: flex;
+    width: 100%;
+}
+
+.SecondCard-Contents{
+    padding: 10px 32px;
+    text-align: center;
+    height: 230px;
+    background-color: rgb(31, 30, 30);
+}
+
+.LowerCards{
+    height: 250px;
+}
+
+.FirstCardDesc{
+    color: #aaa;
+
+}
+
+.CardIcons{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 13px; 
+}
+
+.LowerCards{
+    display: flex;
+    width: 100%;
+}
+
+.body-image-introDetials-wrapper{
+    color:#fff;
+}
+
+.body-image-introDetialsContainer{
+    margin: 0 346px;  
+}
+
+.body-image-introDetails-row{
+    display: flex;
+}
+
+.ServicesAndCards-row{
+    display: flex;
+    /* width: 100%; */
+}
+
+.nameAndTitle{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.introAndName{
+    margin-bottom: 20px;
+    
+}
+
+@keyframes fade-in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.MyName{
+    margin-bottom: 20px;
+}
+
+.MyNamehover{
+    color: #5CD2B9;
+}
+.MyNamehover:hover{
+    color: black;
+}
+
+.getReady{
+    color: #5CD2B9;
+    font-weight: bold;
+    margin: 8px 0 16px 0;
+}
+
+.MyPosition-wrapper{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.MyPosition{
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.divider-horizontal{
+    width: 100px;
+    height: 3px;
+    background-color:#5CD2B9;
+}
+
+.NameInitials-Span{
+    color: #5CD2B9;
+    margin-left: -0.18em;
+    text-shadow: -0.12em 0.03em 0.12em rgba(0,0,0,0.7);
+    /* font-size: 40px; */
+    text-decoration: none;
+}
+
+.ButtonAndDesc-wrapper{
+    width: 100%;
+    
+}
+
+.ButtonAndDesc-row{ 
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.ButtonIcon{
+    font-size: 21px;
+}
+
+.ButtonIcon::before{
+    content: '\f04b';
+    font-family: FontAwesome;
+    font-style: normal;
+    height: 100px;
+    width: 100px;
+
+}
+
+.playbutton-wrapper{
+    display: flex;
+    width: 15.369%;
+    height: 115px;
+    padding: 10px;  
+    /* background-color: #000; */
+}
+
+.button-container{
+    padding: 10px;
+    height: 94px;
+    line-height: 59px;
+    position: relative;
+    z-index: 1;
+}
+
+.ButtonCirclePulse::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 74px;
+    height: 74px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #5CD2B9;
+    animation: pulse 3s infinite;
+    animation-timing-function: ease; 
+    animation-duration: 6s;
+    opacity: .6;
+    z-index: -1;
+}
+
+.ButtonCirclePulse i::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 74px;
+    height: 74px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #5CD2B9;
+    animation: pulse 3s infinite;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    opacity: .6;
+    z-index: -2;
+}
+
+.buttoncircle::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 74px;
+    height: 74px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 #5CD2B9;
+    animation: pulse 3s infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    opacity: .6;
+    z-index: -1;
+}
+
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 13px #508f81;
+        opacity: .0;
+    }   
+}
+
+.buttoncircle{
+    padding: 0px 1px 0px 30px;
+    line-height: 79px;
+    background-color: #5CD2B9;
+    border-radius: 50%;
+    height: 100%;
+}
+
+
+
+.playbutton::before{
+    content: '';
+    color:palevioletred;
+}
+.playbutton-placement{
+    width: 100%;
+    /* background-color:black; */
+}
+
+.playbutton-button{
+    color: #fff;
+}
+
+.Buttonpadding{
+    padding: 10px;
+}
+
+
+
+.Buttondesc{
+    padding: 10px;
+}
+
+.buttondesc-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutUs{
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.dividerDesc-wrapper{
+    width: 100%;
+    padding: 6px 0;
+}
+
+.dividerDesc{
+    display: flex;
+    background-color: #2F2F2F;
+    width: 118px; 
+    height: 1px;
+}
+
+.PromotionStudio-wrapper{
+    width: 100%;
+}
+
+.PromotionStudio{
+    margin: 0;
+    color: #5CD2B9;
+}
+
+.AdditionalInfo{
+    padding-right: 160px;
+    
+}
+
+.Info{
+    color: #aaa;
+    animation: fade-in 5s;
+}
+
+.body-text-content{
+    color: #fff;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #119c7f;
+    margin: 8px 0px 16px;
+}
+
+.MyName{
+    color:#fff;
+    font-weight: bold;
+    font-size: 70px;
+    display: block;
+    
+}
+.body-row{
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+.ServicesAndDesc-container{
+    padding: 16px 48px 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Services-wrapper{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Services-title{
+    margin: 0;
+    margin: 8px 0 16px;
+    color:#5CD2B9;
+    width: 100%;
+    
+}
+
+.Services-contents{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.servicecontents-hover{
+    color: #5CD2B9;
+}
+
+.servicecontents-hover:hover{
+    color: black;
+}
+
+.Servicesdesc{
+    color: #aaa;
+}
+
+.Servicedesc-padding{
+    margin-bottom: 20px;
+}
+
+.FirstCard{
+    margin-bottom: 10px;
+}
+.Card-padding{
+    margin-bottom: 10px;
+}
+
+.button-wrapper{
+    width: 100%;
+
+}
+
+.VIEWButton{
+    padding: 16px
+}
+
+.image {
+    opacity: 0.8;
+    height: 800px;
+    position: absolute;
+    right: 200px;
+    top: 97px;
+}
+
+.Cards-wrapper{
+    width: 100%;
+}
+
+
+.card1-container{
+    padding: 10px;
+    background-color: #fff;
+    
+}
+.card2-container{
+    padding: 10px;
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.SlidingImage-AboutUsContents{
+    padding: 96px 16px 0 16px;
+    background-color: #0C0C0C;
+}
+
+.SlidingImage-AboutUsContents-container{
+    margin: 0 346px;
+}
+
+.SlidingImage-AboutUsContents-row{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.slidingImage{
+    display: flex;
+    /* background-color: pink; */
+}
+
+.sideviewImg{
+    height: 647px;
+    width: 498px;
+}
+
+.AboutUsContent{
+    display: flex;
+    /* background-color: orange; */
+    padding: 16px;
+    width: 100%;
+    height: 646px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.aboutUs-contents{
+    /* font-family:'Poppins', sans-serif; */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5CD2B9;
+    width: 100%;
+}
+
+.aboutUs-header{
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5CD2B9;
+}
+
+.aboutUs-secondHeader{
+    width: 100%;
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-container{
+    margin-bottom: 20px;
+}
+
+.lowerboxes-container{
+    display: flex;
+}
+
+.firstbox{
+    display: flex;
+}
+
+.firstbox-wrapper{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;  
+}
+
+.secondbox{
+    display: flex;
+}
+
+.Aboutus-CardIcons{
+    height: 65px;
+    width: 65px;
+}
+
+.aboutus-cardcontent{
+    margin: 8px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Aboutus-CardIcon-container{
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.contents-p{
+    color: #aaa;
+}
+
+.content-margin{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
